@@ -23,16 +23,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ai:dolescence",
+    "title": "Nadpis první úrovně",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.\n\n\nHe lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.\n\n\nHis many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. “What’s happened to me?” he thought. It wasn’t a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls."
   },
   {
-    "objectID": "index.html#další-nadpis",
-    "href": "index.html#další-nadpis",
-    "title": "ai:dolescence",
+    "objectID": "index.html#nadpis-druhé-úrovně",
+    "href": "index.html#nadpis-druhé-úrovně",
+    "title": "Nadpis první úrovně",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.\n\n\nHis many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. “What’s happened to me?” he thought. It wasn’t a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls."
   },
   {
     "objectID": "sber_dat.html",
@@ -40,5 +40,12 @@
     "title": "Sběr dat",
     "section": "",
     "text": "…\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#další-nadpis",
+    "href": "index.html#další-nadpis",
+    "title": "ai:dolescence",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
