@@ -1,0 +1,15 @@
+---
+title: "ai:dolescence"
+---
+
+### This content appears above the formatted about page content.
+
+:::{#hero-heading}
+
+Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+
+## Další nadpis
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
