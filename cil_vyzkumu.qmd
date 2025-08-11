@@ -1,5 +1,6 @@
 ---
 title: "Cíl výzkumu"
+lang: cs
 ---
 
 ## Podrobnější popis cíle výzkumu

@@ -1,5 +1,6 @@
 ---
 title: "Přínos projektu"
+lang: cs
 ---
 
 ## Co výzkum přináší školám?

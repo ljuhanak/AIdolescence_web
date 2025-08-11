@@ -1,6 +1,7 @@
 ---
 title: "Sběr dat"
 format: html
+lang: cs
 ---
 
 

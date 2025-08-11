@@ -3,6 +3,7 @@ format:
   html: 
     sidebar: false
     anchor-sections: false
+lang: cs
 ---
 
 ### Víte, co si středoškoláci myslí o AI? My také ne. <br> Pojďme to společně zjistit!

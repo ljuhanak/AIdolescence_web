@@ -1,5 +1,6 @@
 ---
 title: "Kontakty"
+lang: cs
 ---
 
 ...
