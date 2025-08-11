@@ -1,5 +1,88 @@
 ---
 title: "Sběr dat"
+format: html
 ---
 
-...
+
+```{=html}
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" data-bs-toggle="tab" href="#reditele" aria-selected="true" role="tab">Ředitelé</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#ucitele" aria-selected="false" role="tab" tabindex="-1">Učitelé vyplňující dotazník</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#koordinatori" aria-selected="false" role="tab" tabindex="-1">Školní koordinátoři</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#studenti" aria-selected="false" role="tab" tabindex="-1">Studenti</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#rodice" aria-selected="false" role="tab" tabindex="-1">Rodiče</a>
+  </li>
+</ul>
+
+
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active show" id="reditele" role="tabpanel">
+    <p>Kroky: <BR>
+<ul>
+  <li>E-mailová domluva o:
+    <ul>
+      <li>souhlasu konání výzkumu,</li>
+      <li>výběr konkrétních tříd, které se šetření zúčastní</li>
+      <li>domluvení konkrétního času šetření</li>
+    </ul>
+  </li>
+  <li>Dohled nad potvrzením informovaných souhlasů 
+  <li>Zaslání jmenných seznamů zúčastněných tříd (dle příslušnosti ke třídě)
+  <li>Shlédnutí instruktážního videa pro samotný den sběru dat
+  </li>
+</ul>
+  </p>
+  </div>
+  
+  
+  
+  <div class="tab-pane fade" id="ucitele" role="tabpanel">
+    <p>Vaše účast na výzkumu bude mít <b>přímý vliv na formování vzdělávací politiky České republiky</b> vzhledem k užívání AI ve školství. Na základě vyplněných dotazníků budou vytvořena konkrétní doporučení směřující k MŠMT, která budou vycházet z vašich reálných potřeb. Cílem je <b>podpořit učitele v rozvoji dovedností a znalostí spojených s AI</b> na základě jejich reálných potřeb.</p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_xshdL3ozl8?si=mLvUlhtksHeesfVe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <h5>Co pro vás účast na výzkumu znamená?</h5> 
+    <p>V prvním kroku podepíšete <b>informovaný souhlas</b>. Jedná se o dokument vysvětlující zacházení se získanými informacemi. Podstatné je, že vaše data budou ve výsledku <b>anonymizována</b>, nikdo proto nebude moci identifikovat, jaká odpověď je poskytnuta právě vámi.</p>
+<p>Následuje testování, které se odehraje ve dvou vlnách. První dotazník absolvujete <b>na podzim a druhý na jaře téhož školního roku</b>. Některé položky budou ověřovat znalosti v souvislosti s AI, jiné položky se zaměří na váš postoj k využívání nástrojů AI ve školství.</p>
+<p>Každé testování zabere přibližně méně než <b>jednu vyučovací hodinu</b>.</p>
+<p>
+Některé otázky mají časový limit, který odpovídá jejich náročnosti. Pokud je otázka náročná – dlouhá nebo složitá – pak je vyšší i časová dotace vyhrazená pro otázku. Cílem není vás dostat do časové tísně.</p>
+  </div>
+  
+  
+  
+  <div class="tab-pane fade" id="koordinatori" role="tabpanel">
+    <p>Před zahájením testování, prosím, shlédněte video.</p>
+    <p>YOUTUBE VIDEO</p>
+  </div>
+  
+  
+  <div class="tab-pane fade" id="studenti" role="tabpanel">
+    <p>Účastí na výzkumu pomůžeš české společnosti k pochopení toho, <b>jakým způsobem AI používáš při studiu, ale i mimo to, v čem se dobře orientuješ a jak na ni nahlížíš.</b></p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/V01VLD7KBig?si=_HdzBMF6ltqEXU9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+<h5>Co pro tebe účast na výzkumu znamená?</h5>
+<p>Nejprve od tebe potřebujeme podepsaný <b>informovaný souhlas</b>. To je dokument, který ti vysvětlí, jak bude naloženo se získanými informacemi po dobu výzkumu. Nemusíš se však ničeho bát. Data budou ve výsledcích <b>anonymizována</b>, což znamená, že tě nikdo nepozná a nebude moci přiřadit tvoje odpovědi k tvojí osobě. </p>
+<p>Pak už samotné testování – vyplňování dotazníku. Prvním testem projdeš <b>v průběhu podzimu, a dalším na jaře</b>. Jednoduše, oba testy se uskuteční v rámci jednoho školního roku. Nelekej se slova test. Přestože některé položky skutečně ověřují tvoje znalosti, mnohé z nich se věnují také tomu, jaký postoj k AI zaujímáš a proč. U takových položek není žádná odpověď špatně!</p>
+<p>Každé z testování zabere zhruba <b>jednu vyučovací hodinu</b>. Může se stát, že to stihneš dřív, protože pro tebe bude test prostě moc jednoduchý, určitě však nezabere víc než právě 45 minut.</p>
+<p>Na některé z otázek máš určitý časový limit, který se odvíjí od složitosti otázky. Jednoduše: těžká otázka → víc času. Nechceme tě dostat do časového tlaku.</p>
+  </div>
+  
+  
+  <div class="tab-pane fade" id="rodice" role="tabpanel">
+    <p>Vyjádřením souhlasu s účastí na výzkumu vašeho dítěte <b>přispíváte k porozumění využívání AI studenty na středních školách </b> v České republice. <b>Jedná se o první šetření svého druhu na našem území</b>, a je proto přelomové. Díky využití pokročilých statistických metod zmapujeme, jak si čeští studenti stojí ve znalostech a schopnostech souvisejících s AI, ale i jejich postoje k ní.</p>
+  </div>
+</div>
+
+```
+
+

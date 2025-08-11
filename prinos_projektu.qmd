@@ -2,4 +2,16 @@
 title: "Přínos projektu"
 ---
 
-...
+## Co výzkum přináší školám?
+
+Z účasti na výzkumu **získá vaše škola podrobné informace ve zúčastněných třídách o znalostech a schopnostech studentů o AI a jejich postoje k ní**. Po vyhodnocení dotazníků zašle výzkumný tým personalizovanou zprávu o výsledcích. **Výsledky mohou být užitečné vzhledem k dalšímu plánování výuky** -- zjistíte, na co by bylo vhodné se v hodinách zaměřit a s čím vaši studenti potřebují pomoci. Zároveň se dozvíte, jak vaši pedagogové AI využívají, jak k ní přistupují a jak se v ní orientují.
+
+## Co výzkum přináší společnosti?
+
+Výzkum přispěje k **objasnění vlivu AI gramotnosti na formování vědění u studentů na různých typech středních škol**. Výsledky výzkumu napomáhají k utváření společnosti, která je odolnější vůči výzvám přicházejícím s nástupem a využíváním nejmodernějších digitálních technologií. Výzkumné **nálezy pomohou pedagogům, rodičům a aktérům ve veřejné a technologické sféře lépe pochopit otázky spojené s integrací AI** do vzdělávání.
+
+
+## Výstupy z výzkumu
+
+Z výzkumu budou publikovány **vědecké články** v prestižních časopisech mezinárodní úrovně, které svojí kvalitou mohou dobře posloužit pro **formování postupů ve strategických dokumentech vzhledem k integraci AI do vzdělávání**. Budou také navrhnuty konkrétní kroky pro rozvoj strategických dokumentů v tématu AI, které budou reflektovat i reálné potřeby pedagogů v této oblasti.
+

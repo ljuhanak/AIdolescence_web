@@ -35,26 +35,23 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-aad47d4606dcadcfee8bfcd2106e8a97.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d7be18be332af79c984d04aec6c09a13.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-aad47d4606dcadcfee8bfcd2106e8a97.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-aad47d4606dcadcfee8bfcd2106e8a97.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4c22eb48920fc2232c28e5ba013fd3c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-6802e839ec914419232ae36112b7f1a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4c22eb48920fc2232c28e5ba013fd3c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b85d72eb3b4a2d3bc4fe287e4dec823e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "textbox",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -69,202 +66,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-</head><body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script><div class="hero-container">
-
-<div class="hero-image"> 
-
-  <div class="image-text">
-
-    <div class="hero-text-top">Zkoumání zásadních otázek dospívání</div>
-
-    <div class="hero-text-byline">
-
-      Aidolescence.cz podporuje výzkum dospívání,<br>
-
-	  vytváří prostor pro sdílení poznatků a napomáhá<br>
-
-	  lepšímu porozumění této důležité etapě života.
-
-    </div>
-
-  </div>
-
-  
-
-  
-
-</div>
-
-</div>
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
+</head>
 
-
-
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -302,10 +109,13 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./vysledky_vyzkumu.html"> 
 <span class="menu-text">Výsledky výzkumu</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./kontakty.html"> 
+<span class="menu-text">Kontakty</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -321,38 +131,199 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="víte-co-si-středoškoláci-myslí-o-ai-my-také-ne.-pojďme-to-společně-zjistit" class="level3">
+<h3 data-anchor-id="víte-co-si-středoškoláci-myslí-o-ai-my-také-ne.-pojďme-to-společně-zjistit">Víte, co si středoškoláci myslí o AI? My také ne. <br> Pojďme to společně zjistit!</h3>
 
-<section id="nadpis-první-úrovně" class="level1">
-<h1>Nadpis první úrovně</h1>
-<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
-<section id="nadpis-druhé-úrovně" class="level2">
-<h2 data-anchor-id="nadpis-druhé-úrovně">Nadpis druhé úrovně</h2>
-<p>He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.</p>
-<section id="nadpis-třetí-úrovně" class="level3">
-<h3 data-anchor-id="nadpis-třetí-úrovně">Nadpis třetí úrovně</h3>
-<p>His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. “What’s happened to me?” he thought. It wasn’t a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
+<br>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/L7PHeCyvC2c?si=Y5b_CR9rZowjieZs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<br>
 
+<p>Projekt <strong>ai:dolescence</strong> je prvním takto velkým výzkumným šetřením v ČR, které se zabývá <strong>výzvami spojenými s využíváním umělé inteligence (AI) ve vzdělávání</strong> pohledem studentů i učitelů. Cílem projektu je přímo působit na vývoj vzdělávací politiky tak, aby byla v souladu s reálnými potřebami.</p>
+<p>Ai:dolescence je součástí velkého projektu Zprostředkovaná společnost (MEDIS:ON), který se věnuje <strong>vlivu moderních technologií na každodenní život a společenské vztahy</strong>. Digitální média, sociální sítě a AI stále více ovlivňují, jak lidé komunikují, jak si vytvářejí své názory, hodnoty a identitu. Tento projekt propojuje vědce, aby společně nabídli vysvětlení toho, jak digitální prostředí mění interakce mezi lidmi i jejich vztah ke společnosti. MEDIS:ON klade důraz na <strong>pochopení toho, jak se lidé učí, komunikují a rozhodují v této propojené digitální a fyzické realitě</strong>.</p>
+<p>Výzkum pomáhá lépe porozumět tomu, jak technologie ovlivňují lidské schopnosti a jak může společnost reagovat na nové výzvy i příležitosti, které digitální svět přináší.</p>
+</section>
+<section id="fáze-výzkumného-šetření" class="level2">
+<h2 data-anchor-id="fáze-výzkumného-šetření">Fáze výzkumného šetření</h2>
+<p>Momentálně se nacházíme v barevné oblasti.</p>
+<p><img src="images/ZelDia.png" class="img-fluid"></p>
+</section>
+<section id="výzkumný-tým" class="level2">
+<h2 data-anchor-id="výzkumný-tým">Výzkumný tým</h2>
+
+
+
+  <meta charset="UTF-8">
+  <title>Kulaté obrázky v mřížce</title>
+  <style>
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .team-member h4 {
+      margin: 0 0 5px;
+    }
+
+    .team-member p {
+      margin: 0 0 10px;
+      color: #666;
+    }
+
+    .team-member a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .team-member a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+
+
+  <div class="team-grid">
+      <!-- Lintner -->
+    <div class="team-member">
+      
+      <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Lintner.jpeg" alt="Tomáš Lintner"> 
+      </a>
+      <h4>Tomáš Lintner PhD.</h4>
+      <p>Vedoucí výzkumného týmu</p>
+      <a href="tomas.lintner@phil.muni.cz ">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Kollerová -->
+  <div class="team-member">
+     <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Babyrádová.jpeg" alt="Veronika Babyrádová"> </a>
+      <h4>PhDr. Lenka Kollerová, Ph.D.</h4>
+      <p>***</p>
+      <a href="mail?">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Juhaňák -->
+  <div class="team-member">
+      <a href="https://www.muni.cz/lide/217393-libor-juhanak" target="_blank" style="text-decoration: none;">  
+      <img src="images/Tesařová.jpeg" alt="Tomáš Lintner"> </a>
+      <h4>Mgr. Bc. Libor Juhaňák, Ph.D.</h4>
+      <p>***</p>
+      <a href="mail?">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Lintner -->
+    <div class="team-member">
+     <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Lintner.jpeg" alt="Tomáš Lintner"> </a>
+      <h4>Tomáš Lintner PhD.</h4>
+      <p>Vedoucí výzkumného týmu</p>
+      <a href="mail?">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Lintner -->
+  <div class="team-member">
+     <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Babyrádová.jpeg" alt="Veronika Babyrádová"> </a>
+      <h4>Mgr. Veronika Babyrádová</h4>
+      <p>Výzkumnice</p>
+      <a href="tomas.lintner@phil.muni.cz ">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Lintner -->
+  <div class="team-member">
+      <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Tesařová.jpeg" alt="Tomáš Lintner"> </a>
+      <h4>Bc. Veronika Tesařová DiS.</h4>
+      <p>Výzkumnice</p>
+      <a href="tomas.lintner@phil.muni.cz ">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Lintner -->
+        <div class="team-member">
+      <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Lintner.jpeg" alt="Tomáš Lintner"> </a>
+      <h4>Tomáš Lintner PhD.</h4>
+      <p>Vedoucí výzkumného týmu</p>
+      <a href="tomas.lintner@phil.muni.cz ">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Lintner -->
+  <div class="team-member">
+      <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Babyrádová.jpeg" alt="Veronika Babyrádová"> </a>
+      <h4>Mgr. Veronika Babyrádová</h4>
+      <h5>Výzkumnice</h5>
+      <p> </p>
+      <a href="tomas.lintner@phil.muni.cz ">tomas.lintner@phil.muni.cz </a>
+    </div>
+  
+  <!-- Lintner -->
+  <div class="team-member">
+      <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Tesařová.jpeg" alt="Tomáš Lintner"> </a>
+      <h4>Bc. Veronika Tesařová DiS.</h4>
+      <p>Výzkumnice</p>
+      <a href="tomas.lintner@phil.muni.cz ">tomas.lintner@phil.muni.cz </a>
+    </div>
+
+
+
+  </div>
+
+ 
 
 </section>
+<section id="kdo-se-na-výzkumu-aidolescence-podílí" class="level2">
+<h2 data-anchor-id="kdo-se-na-výzkumu-aidolescence-podílí">Kdo se na výzkumu ai:dolescence podílí?</h2>
+
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
+
+  <a href="https://www.phil.muni.cz/" target="_blank" style="text-decoration: none;">
+    <img src="https://muni.brandcloud.pro/storage/10488/previews/500x500/76ba025bfdcca168659a5bf73029c649.webp" alt="Filozofická fakulta MU" style="width: 150px;">
+  </a>
+
+  <a href="https://psu.cas.cz/cs/index.html" target="_blank" style="text-decoration: none;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfKX-MhpRyXuuV3wbJjJk95QXhRm7GkuLEA&amp;s" alt="Psychologický ústav AV ČR" style="width: 150px;">
+  </a>
+
+</div>
+
+<br>
+
+<section id="financování" class="level3">
+<h3 data-anchor-id="financování">Financování</h3>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+<a href="https://www.msmt.cz" target="_blank" style="text-decoration: none;">
+    <img src="https://msmt.gov.cz/uploads/gallery/full/1498.jpg" alt="Avatar" class="image" style="width: 200px; display: block;">
+</a>
+  </div>
+
+<br>
+
+
+
 </section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -755,26 +726,14 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://youtube.com/">
+    <a class="nav-link" href="https://www.youtube.com/@aidolescence">
       <i class="bi bi-youtube" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/">
-      <i class="bi bi-twitter" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://facebook.com/">
       <i class="bi bi-facebook" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/">
-      <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
