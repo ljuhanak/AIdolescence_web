@@ -65,10 +65,9 @@ Některé otázky mají časový limit, který odpovídá jejich náročnosti. P
   
     <!-- Školní koordinátoři -->
   <div class="tab-pane fade" id="koordinatori" role="tabpanel">
-    <p>Role školního koordinátora je pro realizaci výzkumu klíčová. Jedná se o osobu, která komunikuje s výzkumným týmem, který je k dispozici i pro Vaše dotazy. Veškeré potřebné informace k šetření naleznete ve videu: </p>
+    <p>Role školního koordinátora je pro realizaci výzkumu klíčová. Jedná se o osobu, která komunikuje s výzkumným týmem, který je k dispozici i pro Vaše dotazy. <b>Veškeré potřebné informace k šetření naleznete ve videu, které dostanete v dostatečném předstihu na e-mail.<b> </p>  </div>
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/V01VLD7KBig?si=_HdzBMF6ltqEXU9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-  </div>
+
     
     
     <!-- Studenti -->
