@@ -25,10 +25,14 @@ lang: cs
   </li>
 </ul>
 
-
+  <!-- Ředitelé -->
 <div id="myTabContent" class="tab-content">
   <div class="tab-pane fade active show" id="reditele" role="tabpanel">
-    <p>Kroky: <BR>
+    <p>Zapojením Vaší školy do výzkumu výrazně pomůžete k ustanovení role AI v českém školství. Výzkumný tým Vám po celou dobu šetření bude poskytovat technickou podporu a samotný výzkum je designován tak, aby pro Vaši školu neznamenal zátež, ale příležitost.<p> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1kwQap7MsEU?si=UXQfm3MbQMH-rPyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Jak bude výzkum probíhat v jednotlivých krocích?</p>
 <ul>
   <li>E-mailová domluva o:
     <ul>
@@ -45,7 +49,7 @@ lang: cs
   </p>
   </div>
   
-  
+    <!-- Učitelé vyplňující dotazník -->
   
   <div class="tab-pane fade" id="ucitele" role="tabpanel">
     <p>Vaše účast na výzkumu bude mít <b>přímý vliv na formování vzdělávací politiky České republiky</b> vzhledem k užívání AI ve školství. Na základě vyplněných dotazníků budou vytvořena konkrétní doporučení směřující k MŠMT, která budou vycházet z vašich reálných potřeb. Cílem je <b>podpořit učitele v rozvoji dovedností a znalostí spojených s AI</b> na základě jejich reálných potřeb.</p>
@@ -59,12 +63,15 @@ Některé otázky mají časový limit, který odpovídá jejich náročnosti. P
   </div>
   
   
-  
+    <!-- Školní koordinátoři -->
   <div class="tab-pane fade" id="koordinatori" role="tabpanel">
-    <p>Před zahájením testování, prosím, shlédněte video.</p>
-    <p>YOUTUBE VIDEO</p>
+    <p>Role školního koordinátora je pro realizaci výzkumu klíčová. Jedná se o osobu, která komunikuje s výzkumným týmem, který je k dispozici i pro Vaše dotazy. Veškeré potřebné informace k šetření naleznete ve videu: </p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/V01VLD7KBig?si=_HdzBMF6ltqEXU9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
   </div>
-  
+    
+    
+    <!-- Studenti -->
   
   <div class="tab-pane fade" id="studenti" role="tabpanel">
     <p>Účastí na výzkumu pomůžeš české společnosti k pochopení toho, <b>jakým způsobem AI používáš při studiu, ale i mimo to, v čem se dobře orientuješ a jak na ni nahlížíš.</b></p>
@@ -78,12 +85,13 @@ Některé otázky mají časový limit, který odpovídá jejich náročnosti. P
 <p>Na některé z otázek máš určitý časový limit, který se odvíjí od složitosti otázky. Jednoduše: těžká otázka → víc času. Nechceme tě dostat do časového tlaku.</p>
   </div>
   
-  
+  <!-- Rodiče -->
   <div class="tab-pane fade" id="rodice" role="tabpanel">
     <p>Vyjádřením souhlasu s účastí na výzkumu vašeho dítěte <b>přispíváte k porozumění využívání AI studenty na středních školách </b> v České republice. <b>Jedná se o první šetření svého druhu na našem území</b>, a je proto přelomové. Díky využití pokročilých statistických metod zmapujeme, jak si čeští studenti stojí ve znalostech a schopnostech souvisejících s AI, ale i jejich postoje k ní.</p>
   </div>
 </div>
 
 ```
+
 
 
