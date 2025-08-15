@@ -11,19 +11,20 @@ website:
       - icon: house-door-fill
         text: " "
         href: index.qmd
-      - text: "Cíl výzkumu"
-        href: cil_vyzkumu.qmd
+      - text: "Cíl"
+        href: "#sekce-cil"
+      - text: "Přínos"
+        href: "#sekce-prinos"
+      - text: "Informovaný souhlas"
+        href: "#sekce-souhlas"
       - text: "Sběr dat"
-        href: sber_dat.qmd
-      - text: "Přínos projektu"
-        href: prinos_projektu.qmd
+        href: "#sekce-faze"
       - text: "Výsledky výzkumu"
         href: vysledky_vyzkumu.qmd
       - text: "Kontakty"
-        href: kontakty.qmd
+        href: "#sekce-kontakt"
         
-  back-to-top-navigation: true
-  
+
   page-footer: 
     
     background: light
@@ -40,8 +41,7 @@ website:
 format:
   html:
     theme: minty
+    include-after-body: _include-after.html
     css: styles.css
     toc: false
-
-
 
