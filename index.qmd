@@ -4,204 +4,249 @@ format:
     sidebar: false
     anchor-sections: false
 lang: cs
+
 ---
 
-### Pojdťe s námi pomoci ukotvit roli AI ve vzdělávání.
-
+<!--Hlavní obrázek---->
 ```{=html}
-
-<br>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/L7PHeCyvC2c?si=Y5b_CR9rZowjieZs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>AI VE ŠKOLÁCH? <br> POJĎME SPOLEČNĚ ZJISTIT, <br> JAK NA TO</h1>
+  </div>
 </div>
-<br>
 
 ```
 
 
-Projekt **ai:dolescence** je prvním takto velkým výzkumným šetřením v ČR, které se zabývá **výzvami spojenými s využíváním umělé inteligence (AI) ve vzdělávání** pohledem studentů i učitelů. Cílem projektu je přímo působit na vývoj vzdělávací politiky tak, aby byla v souladu s reálnými potřebami.
-
-Ai:dolescence je součástí velkého projektu Zprostředkovaná společnost (MEDIS:ON), který se věnuje **vlivu moderních technologií na každodenní život a společenské vztahy**. Digitální média, sociální sítě a AI stále více ovlivňují, jak lidé komunikují, jak si vytvářejí své názory, hodnoty a identitu. Tento projekt propojuje vědce, aby společně nabídli vysvětlení toho, jak digitální prostředí mění interakce mezi lidmi i jejich vztah ke společnosti. MEDIS:ON klade důraz na **pochopení toho, jak se lidé učí, komunikují a rozhodují v této propojené digitální a fyzické realitě**.
-
-Výzkum pomáhá lépe porozumět tomu, jak technologie ovlivňují lidské schopnosti a jak může společnost reagovat na nové výzvy i příležitosti, které digitální svět přináší.
-
-
-## Fáze výzkumného šetření
-
-Momentálně se nacházíme v barevné oblasti. 
-
-![](images/ZelDia.png){width=70%}
-
-## Výzkumný tým
-
+<!--Úvodní text---->
 ```{=html}
+<section class="blok zelena">
+<div class="container">
+<h1> O projektu ai:dolescence </h1>
+<h4 style="text-align:justify;"> Projektu ai:dolescence se zabývá <b>výzvami spojenými s využíváním umělé inteligence (AI) ve vzdělávání pohledem studentů i učitelů</b>. Cílem projektu je přímo působit na vývoj vzdělávací politiky tak, aby byla v souladu s reálnými potřebami. Výzkum také pomáhá lépe porozumět tomu, jak technologie ovlivňují lidské schopnosti a jak může společnost reagovat na nové výzvy i příležitosti, které digitální svět přináší.</h4>
+</div>
+<br><br>
 
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <title>Kulaté obrázky v mřížce</title>
-  <style>
-    .team-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 30px;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    .team-member img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 15px;
-    }
-
-    .team-member h4 {
-      margin: 0 0 5px;
-    }
-
-    .team-member p {
-      margin: 0 0 10px;
-      color: #666;
-    }
-
-    .team-member a {
-      color: #0077cc;
-      text-decoration: none;
-    }
-
-    .team-member a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="team-grid">
-      <!-- Lintner -->
-    <div class="team-member">
-      
-      <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
-      <img src="images/Lintner.jpeg" alt=""> 
-      </a>
-      <h4>Tomáš Lintner PhD.</h4>
-      <p>Vedoucí výzkumného týmu</p>
-      <a href="tomas.lintner@phil.muni.cz ">tomas.lintner@phil.muni.cz </a>
-    </div>
-  
-  <!-- Kollerová -->
-  <div class="team-member">
-     <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
-      <img src="images/ SEM DÁT FOTKU " alt=""> </a>
-      <h4>PhDr. Lenka Kollerová, Ph.D.</h4>
-      <p>***</p>
-      <a href="tomas.lintner@phil.muni.cz ">... </a>
-    </div>
-  
-  <!-- Juhaňák -->
-  <div class="team-member">
-      <a href="https://www.muni.cz/lide/217393-libor-juhanak" target="_blank" style= "text-decoration: none;">  
-      <img src="images/SEM DÁT FOTKU " alt=""> </a>
-      <h4>Mgr. Bc. Libor Juhaňák, Ph.D.</h4>
-      <p>***</p>
-      <a href="tomas.lintner@phil.muni.cz ">...</a>
-    </div>
-  
-  <!-- Fikrlová -->
-    <div class="team-member">
-     <a href="https://www.muni.cz/lide/460046-jana-fikrlova" target="_blank" style= "text-decoration: none;">  
-      <img src="images/Fikrlová.jpeg" alt=""> </a>
-      <h4> Mgr. Jana Fikrlová</h4>
-      <p> *** </p>
-      <a href="tomas.lintner@phil.muni.cz "> ... </a>
-    </div>
-  
-  <!-- Klocek -->
-  <div class="team-member">
-     <a href="https://psu.cas.cz/cs/lide/cv/klocek/" target="_blank" style= "text-decoration: none;">  
-      <img src="images/Klocek.jpeg" alt=""> </a>
-      <h4>Mgr. Adam Klocek, Ph.D.</h4>
-      <p>****</p>
-      <a href="tomas.lintner@phil.muni.cz "> ... </a>
-    </div>
-  
-    <!-- Babyrádová -->
-  <div class="team-member">
-      <a href="https://www.muni.cz/lide/500034-veronika-babyradova" target="_blank" style= "text-decoration: none;">  
-      <img src="images/Babyrádová.jpeg" alt=""> </a>
-      <h4>Mgr. Veronika Babyrádová</h4>
-      <h5>****</h5>
-      <p> </p>
-      <a href="tomas.lintner@phil.muni.cz ">...</a>
-    </div>
-  
-    <!-- Tesařová -->
-  <div class="team-member">
-      <a href="https://www.muni.cz/lide/523361-veronika-tesarova" target="_blank" style= "text-decoration: none;">  
-      <img src="images/Tesařová.jpeg" alt=""> </a>
-      <h4>Bc. Veronika Tesařová DiS.</h4>
-      <p>*****</p>
-      <a href="tomas.lintner@phil.muni.cz ">...</a>
-    </div>
-  
-  <!-- Žáková -->
-        <div class="team-member">
-      <a href="https://www.muni.cz/lide/481989-marketa-zakova" target="_blank" style= "text-decoration: none;">  
-      <img src="images/Žáková.jpeg" alt=""> </a>
-      <h4>Mgr. et Mgr. Markéta Žáková</h4>
-      <p>*****</p>
-      <a href="tomas.lintner@phil.muni.cz ">... </a>
-    </div>
-
-  <!-- Štolfová -->
-  <div class="team-member">
-      <a href= "https://www.phil.muni.cz/o-nas/zamestnanci-fakulty/481714-veronika-stolfova/vyuka" target="_blank" style= "text-decoration: none;"> 
-      <img src="images/Štolfová.jpeg" alt=""> </a>
-      <h4> Mgr. Veronika Štolfová </h4>
-      <p>***</p>
-      <a href="tomas.lintner@phil.muni.cz ">...</a>
-    </div>
-
-  <!-- Grešová -->
-  <div class="team-member">
-      <img src="images/Grešová.jpeg" alt="">
-      <h4> Bc. Anna Grešová </h4>
-      <p>***</p>
-      <a href="tomas.lintner@phil.muni.cz ">...</a>
-    </div>
-    
-      <!-- Švejdová -->
-  <div class="team-member">
-      <a href="https://www.muni.cz/lide/495144-tereza-svejdova" target="_blank" style="text-decoration: none;">  
-      <img src="images/Švejdová.jpeg" alt=""> </a>
-      <h4> Bc. Tereza Švejdová</h4>
-      <p>***</p>
-      <a href="tomas.lintner@phil.muni.cz ">...</a>
-    </div>
-    
-      <!-- Hutařová -->
-  <div class="team-member">
-      <img src="images/Hutařová.jpeg" alt="">
-      <h4>Bc. Magdalena Hutařová </h4>
-      <p>***</p>
-      <a href="tomas.lintner@phil.muni.cz ">...</a>
-    </div>
-
-
+  <div class="text-center">
+   <a href="#sekce-videa" class="btn btn-secondary">Řekněte mi více </a>
   </div>
 
-</body> 
+</section>
 
 ```
 
 
-## Kdo se na výzkumu ai:dolescence podílí?
+<!-- Co nás zajímá ---->
+```{=html}
+<section class="blok bila">
+  <div class="container">
+    <h2> Co nás zajímá</h2>
+<div class="row">
+    <div class="ikony">
+      <img width="100" height="100" src="https://img.icons8.com/ios/100/creativity-and-resourcefulness.png" alt="creativity-and-resourcefulness"/>
+      <p>Jak AI formuje vědění <br> u studentů SŠ?</p>
+    </div>
+    
+        <div class="ikony">
+     <img width="40" height="40" src="https://img.icons8.com/ios/100/book-and-pencil.png" alt="book-and-pencil"/>
+      <p>K čemu studenti <br> a učitelé SŠ AI využívají?</p>
+    </div>
+
+    
+        <div class="ikony">
+      <img width="40" height="40" src="https://img.icons8.com/ios/100/teaching.png" alt="teaching"/>
+      <p>V jakých oblastech AI <br> potřebují učitelé více podpory?</p>
+    </div>
+   </div>
+   
+   
+  <br><br>
+  <div class="text-center">
+   <a href="#sekce-cil" class="btn btn-secondary">Více o cílech projektu </a>
+  </div>
+
+   </div>
+</section>
+
+```
+
+
+
+<!-- Přínos ---->
+```{=html}
+<section class="blok bila">
+  <div class="container">
+<h2>Co výzkum přinese </h2>
+
+
+<section class="karty-blok">
+  <div class="karta">
+    <h4>Objasnění vlivu AI v oblasti učení</h4>
+  </div>
+
+  <div class="karta">
+    <h4>Podklady pro vzdělávací politiku</h4>
+  </div>  
+
+  <div class="karta">
+    <h4>Prevence patologických jevů</h4>
+  </div>
+  
+    <div class="karta">
+    <h4>Ujasnění potřeb učitelů</h4>
+  </div>
+    </div>    
+    
+    <div class="container">
+
+
+<h3>škola navíc získá:<h3>
+<section class="karty-blok">
+  <div class="karta">
+    <h4>Osobní přehled výkonu</h4>
+  </div>
+
+  <div class="karta">
+    <h4>Informace o využívání AI žáky</h4>
+  </div>  
+
+  <div class="karta">
+    <h4>Přístup učitelů k AI  </h4>
+  </div>
+  
+    <div class="karta">
+    <h4>Informace o klimatu tříd</h4>
+  </div>
+    </div>    
+
+
+ <br><br>
+  <div class="text-center">
+   <a href="#sekce-prinos" class="btn btn-secondary"> Více o přínosu projektu </a>
+  </div>
+  </section>
+</section>
+
+```
+
+
+
+<!-- informovaný souhlas ---->
+```{=html}   
+<section class="blok zelena">
+  <div class="container">
+<h2 id="sekce-souhlas">Informovaný souhlas</h2>
+  <p style="text-align:justify;"> <b>Informovaný souhlas musí vyplnit rodič neplnoletého studenta před konáním testování</b>. V případě nevyplnění či nesouhlasu se žák nebude testování účastnit. <br> Plnoletí studenti souhlas vyplní až v průběhu testování.</p>
+  
+   <br><br>
+  <div class="text-center">
+   <a href="#sekce-o-nas" class="btn btn-secondary">Vyplnit informovaný souhlas </a>
+  </div>
+  
+</section>
+```
 
 ```{=html}
+<div class="divider2"></div>
+```
 
+<!-- výsledky ---->
+```{=html}   
+<section class="blok bila">
+  <div class="container">
+<h2>Výsledky výzkumu</h2>
+  <p><b>Jakmile bude podzimní vlna sběru dat uzavřena, začneme s analýzou. První výstupy zveřejníme koncem tohoto období</b>.</p>
+  
+   <br><br>
+  <div class="text-center">
+   <a href="vysledky_vyzkumu.qmd" class="btn btn-secondary">Ukaž výsledky</a>
+  </div>
+  
+</section>
+```
+
+
+<!-- Kdo se na výzkumu podílí ---->
+```{=html}
+<section class="blok bila">
+<div class="container">
+<h2> Kdo se na výzkumu podílí</h2>
+
+<!-- MAIN (Center website) -->
+
+<style>
+.row {
+  display: flex;
+  flex-wrap: nowrap; /* vše na jeden řádek */
+  justify-content: space-between;
+}
+
+.column {
+  width: 10%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content img {
+  max-width: 80%;
+  height: auto;
+}
+</style>
+
+<div class="main">
+
+
+<!-- Lintner -->
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Lintner.jpg" alt="" style="width:100%"> 
+      </a>
+      <h3>Tomáš Lintner PhD.</h3>
+      <p>Vedoucí projektu a expert na AI ve vzdělávání.</p>
+    </div>
+  </div>
+  
+  
+  <!-- Juhaňák -->
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/217393-libor-juhanak" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Lintner.jpg" alt="" style="width:100%"> </a>
+      <h3>Mgr. Bc. Libor Juhaňák, Ph.D.</h3>
+      <p>Expert na statistickou analýzu dat a informační technologie ve vzdělávání.</p>
+    </div>
+  </div>
+ 
+ 
+<!-- Kollerová -->
+
+  <div class="column">
+    <div class="content">
+     <a href="https://www.muni.cz/lide/438898-tomas-lintner" target="_blank" style="text-decoration: none;">  
+      <img src="images/Klocek.jpg" alt="" style="width:100%"> </a>
+      <h3>PhDr. Lenka Kollerová, Ph.D.</h3>
+      <p>Expertka na třídní normy a klima.</p>
+    </div>
+  </div>
+  
+  
+  <!-- Klocek -->
+  <div class="column">
+    <div class="content">
+       <a href="https://psu.cas.cz/cs/lide/cv/klocek/" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Klocek.jpg" alt="" style="width:100%">  </a>
+      <h3>Mgr. Adam Klocek, PhD</h3>
+      <p>Expert na psychometriku a patologické jevy na školách.</p>
+    </div>
+  </div>
+</div>
+
+<!-- END MAIN -->
+</div>
+<h3>Instituce </h3>
 <div style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
 
   <a href="https://www.phil.muni.cz/" target="_blank" style="text-decoration: none;">
@@ -216,23 +261,394 @@ Momentálně se nacházíme v barevné oblasti.
 
 <br>
 
-```
 
-
-### Financování
-
-```{=html}
+<h3>Financování</h3>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
 <a href="https://www.msmt.cz" target="_blank" style="text-decoration: none;">
-    <img src="EU+MŠMT Barevné.svg" alt="Logo Evropské unie a Ministerstva školství, mládeže a tělovýchovy. S textem: Spolufinancováno Evropskou unií." class="image" style="width: 400px; display: block;">
+    <img src="images/EU+MŠMT Barevné.svg" alt="Logo Evropské unie a Ministerstva školství, mládeže a tělovýchovy. S textem: Spolufinancováno Evropskou unií." class="image" style="width: 400px; display: block;">
 </a>
   </div>
 
-<br>
+<br><br>
+<p style="text-align:justify;"> Ai:dolescence je součástí velkého projektu Zprostředkovaná společnost (MEDIS:ON), který se věnuje <b>vlivu moderních technologií na každodenní život a společenské vztahy</b>. Digitální média, sociální sítě a AI stále více ovlivňují, jak lidé komunikují, jak si vytvářejí své názory, hodnoty a identitu. Tento projekt propojuje vědce, aby společně nabídli vysvětlení toho, jak digitální prostředí mění interakce mezi lidmi i jejich vztah ke společnosti. <b>MEDIS:ON klade důraz na pochopení toho, jak se lidé učí, komunikují a rozhodují v této propojené digitální a fyzické realitě</b>.</p>
+
+  <div class="text-center">
+   <a href="#sekce-kontakt" class="btn btn-secondary"> Kontaktuje nás </a>
+  </div>
+  </section>
+</section>
 
 ```
 
+
+```{=html}
+<section class="blok bila">
+<div class="container">
+<h2> Průběh testování</h2>
+<pstyle="text-align:justify;">Školy musí nejdříve odpovědět na e-mail zaslaný jedním z našich výzkumníků, nebo napsat na přiloženou adresu v záložce kontakty. Vybrat koordinátora šetření (třeba vyučující informatiky či digitální technik), který bude poté podrobněji komunikovat s našim týmem. Celé šetření zabere 1 vyučovací hodinu (45 min) a bude se opakovat 2krát ve školním roce 2025/26 na podzim a na jaře.<br>
+Momentálně se nacházíme v zabarvené fázi:</p>
+<img src="images/ZelDia.png" alt="" style="width:70%"> 
+<br><br>
+  <div class="text-center"> 
+   <a href="#sekce-faze" class="btn btn-secondary"> Více o sběru dat</a>
+  </div>
+</section>
+```
+
+
+```{=html}
+<div class="divider"></div>
+```
+
+```{=html}
+<style>
+.video-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.video-col {
+  flex: 1;
+  min-width: 300px;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<h2 id="sekce-videa">ai:dolescence</h2>
+
+<h3>Projekt ai:dolescence</h3>
+<div class="video-row">
+  <div class="video-col">
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/L7PHeCyvC2c?si=Y5b_CR9rZowjieZs" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="video-col">
+    <p style="text-align:justify;">
+      Ve videu představíme, kdo jsme, co znamená náš název a v čem je náš výzkum jedinečný, včetně zapojených institucí. Dozvíte se náš cíl, proč je důležité se tématu věnovat, a jaké konkrétní přínosy a možnosti využití výsledků může šetření nabídnout Vaší škole.
+    </p>
+  </div>
+</div>
+<br>
+<h3>Umělá inteligence ve vzdělávání</h3>
+<div class="video-row reverse">
+  <div class="video-col">
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/OT5EgAr1PKs?si=ZZes8oT5C9sBv5md" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="video-col">
+    <p style="text-align:justify;">
+      Ve videu se dozvíte, jak chápeme umělou inteligenci ve vzdělávání, co znamená AI gramotnost a proč je důležité ji měřit. Představíme dosavadní zjištění z výzkumu u studentů i učitelů a ukážeme, na co se v České republice teprve snažíme přijít.
+    </p>
+  </div>
+</div>
+<br>
+<h3>Třídní kolektiv a AI</h3>
+<div class="video-row">
+  <div class="video-col">
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/L7PHeCyvC2c?si=Y5b_CR9rZowjieZs" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="video-col">
+    <p style="text-align:justify;">
+      Ve videu se podíváme na fungování třídního kolektivu a jeho častá úskalí, roli umělé inteligence a její vliv na vztahy ve třídě. Ukážeme také, jak nám výzkum pomáhá předcházet sociálně patologickým jevům spojeným s AI.
+    </p>
+  </div>
+</div>
+<br><br>
+```
+
+
+
+```{=html}
+<h2 id="sekce-cil">Podrobnější popis cíle výzkumu</h2>
+
+<p style="text-align:justify;"> Výzkumný projekt ai:dolescence má jeden hlavní cíl. Tím je pochopení toho, <b>jak studenti středních škol vnímají AI, pro jaké účely ji využívají a jaké znalosti a dovednosti v oblasti využívání AI sami mají</b>. Projekt tak rozšiřuje aktuální znalosti o užívání a dopadu AI na vzdělávání studentů na středních školách. Zajímá nás i vnímání AI učiteli a jejich dosavadní znalosti a zkušenosti s využíváním AI pro účely výuky. Na základě toho výzkum formuluje konkrétní kroky vedoucí k bezpečnému využívání AI nástrojů, a to na celostátní úrovni. <b>Data budou sbírána pomocí online dotazníku</b>, který studenti a učitelé vyplní během vyučovací hodiny ve škole. Dotazník obsahuje otázky o postojích, znalostech a dovednostech vztahujících se k AI a otázky o tom, jak se postoje k AI šíří.</p>
+
+<h2> Důležitost výzkumu <h2>
+
+<h3> Pro školy </h3>
+
+<p style="text-align:justify;">Výzkum školám nabízí unikátní příležitost spolehlivě <b>zjistit, jak si v rámci tříd studenti stojí vzhledem k využívání AI nástrojů a znalostem</b>, které o nich mají. K tomu budou využity pokročilé statistické metody, které umožní odhalit hlubší souvislosti, než pouhý popis reality.</p>
+
+<h3>Pro společnost </h3>
+
+<p style="text-align:justify;">Výzkum má důležitý společenský přesah. Jedná se o první takto velký výzkum AI gramotnosti u studentů na středních školách v České republice. <b>Výzkum výrazně přispívá k ukotvení samotného pojmu AI gramotnosti a nabízí společnosti obraz o tom, jak studenti na středních školách s nástroji AI pracují</b>, proč je využívají, jaký k nim mají vztah a také to, jaké znalosti o nástrojích AI mají. To je **podstatné pro další fungování celé společnosti**, jelikož si projekt klade za cíl přispět k prevenci sociálně patologických jevů a jasně definuje, jaké potřeby mají v oblasti AI sami učitelé.</p>
+<br><br>
+```
+
+
+```{=html}
+<h2 id="sekce-prinos">Přínos výzkumu</h2>
+<h3> Přínos výzkumu pro školy </h3>
+<p style="text-align:justify;"> Z účasti na výzkumu <b>získá vaše škola podrobné informace ve zúčastněných třídách o znalostech a schopnostech studentů o AI a jejich postoje k ní</b>. Po vyhodnocení dotazníků zašle výzkumný tým personalizovanou zprávu o výsledcích. <b>Výsledky mohou být užitečné vzhledem k dalšímu plánování výuky</b> -- zjistíte, na co by bylo vhodné se v hodinách zaměřit a s čím vaši studenti potřebují pomoci. Zároveň se dozvíte, jak vaši pedagogové AI využívají, jak k ní přistupují a jak se v ní orientují.</p>
+
+<h3> Co výzkum přináší společnosti?</h3>
+
+< p style="text-align:justify;"> Výzkum přispěje k <b>objasnění vlivu AI gramotnosti na formování vědění u studentů na různých typech středních škol</b>. Výsledky výzkumu napomáhají k utváření společnosti, která je odolnější vůči výzvám přicházejícím s nástupem a využíváním nejmodernějších digitálních technologií. Výzkumné <b>nálezy pomohou pedagogům, rodičům a aktérům ve veřejné a technologické sféře lépe pochopit otázky spojené s integrací AI</b> do vzdělávání.</p>
+
+
+<h3> Výstupy z výzkumu </h3>
+
+<p style="text-align:justify;"> Z výzkumu budou publikovány <b>vědecké články</b> v prestižních časopisech mezinárodní úrovně, které svojí kvalitou mohou dobře posloužit pro <b>formování postupů ve strategických dokumentech vzhledem k integraci AI do vzdělávání</b>. Budou také navrhnuty konkrétní kroky pro rozvoj strategických dokumentů v tématu AI, které budou reflektovat i reálné potřeby pedagogů v této oblasti.
+</p>
+<br><br>
+```
+
+
+```{=html}
+<h2 id="sekce-faze">Sběr dat</h2>
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" data-bs-toggle="tab" href="#reditele" aria-selected="true" role="tab">Ředitelé</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#ucitele" aria-selected="false" role="tab" tabindex="-1">Učitelé vyplňující dotazník</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#koordinatori" aria-selected="false" role="tab" tabindex="-1">Školní koordinátoři</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#studenti" aria-selected="false" role="tab" tabindex="-1">Studenti</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#rodice" aria-selected="false" role="tab" tabindex="-1">Rodiče</a>
+  </li>
+</ul>
+
+  <!-- Ředitelé -->
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active show" id="reditele" role="tabpanel">
+    <p>Zapojením Vaší školy do výzkumu výrazně pomůžete k ustanovení role AI v českém školství. Výzkumný tým Vám po celou dobu šetření bude poskytovat technickou podporu a samotný výzkum je designován tak, aby pro Vaši školu neznamenal zátež, ale příležitost.<p> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1kwQap7MsEU?si=UXQfm3MbQMH-rPyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Jak bude výzkum probíhat v jednotlivých krocích?</p>
+<ul>
+  <li>E-mailová domluva o:
+    <ul>
+      <li>souhlasu konání výzkumu,</li>
+      <li>výběr konkrétních tříd, které se šetření zúčastní</li>
+      <li>domluvení konkrétního času šetření</li>
+    </ul>
+  </li>
+  <li>Dohled nad potvrzením informovaných souhlasů 
+  <li>Zaslání jmenných seznamů zúčastněných tříd (dle příslušnosti ke třídě)
+  <li>Shlédnutí instruktážního videa pro samotný den sběru dat
+  </li>
+</ul>
+  </p>
+  </div>
+  
+    <!-- Učitelé vyplňující dotazník -->
+  
+  <div class="tab-pane fade" id="ucitele" role="tabpanel">
+    <p>Vaše účast na výzkumu bude mít <b>přímý vliv na formování vzdělávací politiky České republiky</b> vzhledem k užívání AI ve školství. Na základě vyplněných dotazníků budou vytvořena konkrétní doporučení směřující k MŠMT, která budou vycházet z vašich reálných potřeb. Cílem je <b>podpořit učitele v rozvoji dovedností a znalostí spojených s AI</b> na základě jejich reálných potřeb.</p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_xshdL3ozl8?si=mLvUlhtksHeesfVe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <h5>Co pro vás účast na výzkumu znamená?</h5> 
+    <p>V prvním kroku podepíšete <b>informovaný souhlas</b>. Jedná se o dokument vysvětlující zacházení se získanými informacemi. Podstatné je, že vaše data budou ve výsledku <b>anonymizována</b>, nikdo proto nebude moci identifikovat, jaká odpověď je poskytnuta právě vámi.</p>
+<p>Následuje testování, které se odehraje ve dvou vlnách. První dotazník absolvujete <b>na podzim a druhý na jaře téhož školního roku</b>. Některé položky budou ověřovat znalosti v souvislosti s AI, jiné položky se zaměří na váš postoj k využívání nástrojů AI ve školství.</p>
+<p>Každé testování zabere přibližně méně než <b>jednu vyučovací hodinu</b>.</p>
+<p>
+Některé otázky mají časový limit, který odpovídá jejich náročnosti. Pokud je otázka náročná – dlouhá nebo složitá – pak je vyšší i časová dotace vyhrazená pro otázku. Cílem není vás dostat do časové tísně.</p>
+  </div>
+  
+  
+    <!-- Školní koordinátoři -->
+  <div class="tab-pane fade" id="koordinatori" role="tabpanel">
+    <p>Role školního koordinátora je pro realizaci výzkumu klíčová. Jedná se o osobu, která komunikuje s výzkumným týmem, který je k dispozici i pro Vaše dotazy. <b>Veškeré potřebné informace k šetření naleznete ve videu, které dostanete v dostatečném předstihu na e-mail.</b> </p>  </div>
+
+
+    
+    
+    <!-- Studenti -->
+  
+  <div class="tab-pane fade" id="studenti" role="tabpanel">
+    <p>Účastí na výzkumu pomůžeš české společnosti k pochopení toho, <b>jakým způsobem AI používáš při studiu, ale i mimo to, v čem se dobře orientuješ a jak na ni nahlížíš.</b></p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/V01VLD7KBig?si=_HdzBMF6ltqEXU9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+<h5>Co pro tebe účast na výzkumu znamená?</h5>
+<p>Nejprve od tebe potřebujeme podepsaný <b>informovaný souhlas</b>. To je dokument, který ti vysvětlí, jak bude naloženo se získanými informacemi po dobu výzkumu. Nemusíš se však ničeho bát. Data budou ve výsledcích <b>anonymizována</b>, což znamená, že tě nikdo nepozná a nebude moci přiřadit tvoje odpovědi k tvojí osobě. </p>
+<p>Pak už samotné testování – vyplňování dotazníku. Prvním testem projdeš <b>v průběhu podzimu, a dalším na jaře</b>. Jednoduše, oba testy se uskuteční v rámci jednoho školního roku. Nelekej se slova test. Přestože některé položky skutečně ověřují tvoje znalosti, mnohé z nich se věnují také tomu, jaký postoj k AI zaujímáš a proč. U takových položek není žádná odpověď špatně!</p>
+<p>Každé z testování zabere zhruba <b>jednu vyučovací hodinu</b>. Může se stát, že to stihneš dřív, protože pro tebe bude test prostě moc jednoduchý, určitě však nezabere víc než právě 45 minut.</p>
+<p>Na některé z otázek máš určitý časový limit, který se odvíjí od složitosti otázky. Jednoduše: těžká otázka → víc času. Nechceme tě dostat do časového tlaku.</p>
+  </div>
+  
+  <!-- Rodiče -->
+  <div class="tab-pane fade" id="rodice" role="tabpanel">
+    <p>Vyjádřením souhlasu s účastí na výzkumu vašeho dítěte <b>přispíváte k porozumění využívání AI studenty na středních školách </b> v České republice. <b>Jedná se o první šetření svého druhu na našem území</b>, a je proto přelomové. Díky využití pokročilých statistických metod zmapujeme, jak si čeští studenti stojí ve znalostech a schopnostech souvisejících s AI, ale i jejich postoje k ní.</p>
+  </div>
+</div>
+
+```
+```{=html}
+
+
+
+```
+
+
+
+<h2 id="sekce-kontakt">Kontakt</h2>
+<p>
+E-mail projektu: <a href="ai-dolescence@phil.muni.cz">ai-dolescence@phil.muni.cz </a>
+
+E-mail vedoucího projektu: <a href="tomas.lintner@mail.muni.cz">tomas.lintner@mail.muni.cz </a><br>
+
+
+Pokud se chete zúčastnit výzkumu, nejdříve zkontrolujte svoji e-mailovou adresu, kterou zveřejňujete na webu. 
+
+</p>
+
+```{=html}
+<!-- MAIN (Center website) -->
+
+<style>
+.row {
+  display: flex;
+  flex-wrap: nowrap; /* vše na jeden řádek */
+  justify-content: space-between;
+}
+
+.column {
+  width: 10%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content img {
+  max-width: 90%;
+  height: auto;
+}
+</style>
+
+<div class="main">
+
+
+<!-- Ropovik -->
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="https://psu.cas.cz/cs/lide/cv/ropovik/" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Ropovik.jpg" alt="" >       </a>
+       <h3> Mgr. Ivan Ropovik, PhD</h3>
+      <p> Expert na statistické modelování </p>
+    </div>
+  </div>
+  
+  <!-- Fikrlová -->
+
+
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/460046-jana-fikrlova" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Fikrlová.jpg" alt="" >       </a>
+       <h3> Mgr. Jana Fikrlová </h3>
+      <p> Odbornice na vztahy ve třídě </p>
+    </div>
+  </div>
+   
+  <!-- Žáková -->
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/217393-libor-juhanak" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Žáková.jpg" alt="" style="width:100%"> </a>
+      <h3>Mgr. Markéta Žáková</h3>
+      <p>Odbornice na statistickou analýzu dat a výzkum odolnosti studentů</p>
+    </div>
+  </div>
+    </div>
+ 
+  <!-- Babyrádová -->
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/500034-veronika-babyradova" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Babyrádová.jpg" alt="" style="width:100%"> </a>
+      <h3>Mgr. Veronika Babyrádová</h3>
+      <p>Odbornice na vzdělávací politiku</p>
+    </div>
+  </div>
+
+    <!-- Štolfová -->
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/481714-veronika-stolfova" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Štolfová.jpg" alt="" style="width:100%"> </a>
+      <h3>Mgr. Veronika Štolfová</h3>
+      <p>Učitelka a odbornice na vzdělávání učitelů</p>
+    </div>
+  </div>
+
+<!-- Tesařová -->
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/523361-veronika-tesarova" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Tesařová.jpg" alt="" >       </a>
+       <h3> Bc. Veronika Tesařová, DiS </h3>
+      <p> Manažerka sběru dat </p>
+    </div>
+  </div>
+    </div>
+  
+   
+  <!-- Hutařová -->
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/Hutařová.jpg" alt="" style="width:100%"> 
+      <h3>Bc. Magdalena Hutařová</h3>
+      <p>Administrátorka sběru dat a webmasterka</p>
+    </div>
+  </div>
+ 
+  <!-- Švejdová -->
+  <div class="column">
+    <div class="content">
+      <a href="https://www.muni.cz/lide/495144-tereza-svejdova" target="_blank" style= "text-decoration: none;">  
+      <img src="images/Švejdová.jpg" alt="" style="width:100%"> </a>
+      <h3>Bc. Tereza Švejdová</h3>
+      <p>Administrátorka sběru dat</p>
+    </div>
+  </div>
+  
+    <!-- Grešová -->
+  <div class="column">
+    <div class="content">
+      <img src="images/Grešová.jpg" alt="" style="width:100%">
+      <h3>Bc. Anna Grešová</h3>
+      <p>Administrátorka sběru dat</p>
+    </div>
+  </div>
+  </div>
+  
+  </div>
+```
 
 
 
