@@ -40,22 +40,22 @@ lang: cs
 ```{=html}
 <section class="blok bila">
   <div class="container">
-    <h2> Co nás zajímá</h2>
+    <h2> Co nás zajímá?</h2>
 <div class="row">
     <div class="ikony">
       <img width="100" height="100" src="https://img.icons8.com/ios/100/creativity-and-resourcefulness.png" alt="creativity-and-resourcefulness"/>
-      <p>Jak AI formuje vědění <br> u studentů SŠ?</p>
+      <p>Jak AI formuje vědění <br> u studentů SŠ.</p>
     </div>
     
         <div class="ikony">
      <img width="40" height="40" src="https://img.icons8.com/ios/100/book-and-pencil.png" alt="book-and-pencil"/>
-      <p>K čemu studenti <br> a učitelé SŠ AI využívají?</p>
+      <p>K čemu studenti <br> a učitelé SŠ AI využívají.</p>
     </div>
 
     
         <div class="ikony">
       <img width="40" height="40" src="https://img.icons8.com/ios/100/teaching.png" alt="teaching"/>
-      <p>V jakých oblastech AI <br> potřebují učitelé více podpory?</p>
+      <p>V jakých oblastech AI <br> potřebují učitelé více podpory.</p>
     </div>
    </div>
    
@@ -388,7 +388,7 @@ Momentálně se nacházíme v zabarvené fázi:</p>
 
 <p style="text-align:justify;"> Výzkumný projekt ai:dolescence má jeden hlavní cíl. Tím je pochopení toho, <b>jak studenti středních škol vnímají AI, pro jaké účely ji využívají a jaké znalosti a dovednosti v oblasti využívání AI sami mají</b>. Projekt tak rozšiřuje aktuální znalosti o užívání a dopadu AI na vzdělávání studentů na středních školách. Zajímá nás i vnímání AI učiteli a jejich dosavadní znalosti a zkušenosti s využíváním AI pro účely výuky. Na základě toho výzkum formuluje konkrétní kroky vedoucí k bezpečnému využívání AI nástrojů, a to na celostátní úrovni. <b>Data budou sbírána pomocí online dotazníku</b>, který studenti a učitelé vyplní během vyučovací hodiny ve škole. Dotazník obsahuje otázky o postojích, znalostech a dovednostech vztahujících se k AI a otázky o tom, jak se postoje k AI šíří.</p>
 
-<h2> Důležitost výzkumu <h2>
+<h2> Důležitost výzkumu </h2>
 
 <h3> Pro školy </h3>
 
