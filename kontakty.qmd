@@ -2,5 +2,6 @@
 title: "Kontakty"
 lang: cs
 ---
+Jakmile bude podzimní vlna sběru dat uzavřena, začneme s analýzou. První výstupy zveřejníme koncem tohoto období.
 
 ...
