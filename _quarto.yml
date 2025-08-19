@@ -11,16 +11,16 @@ website:
       - icon: house-door-fill
         text: " "
         href: index.qmd
-      - text: "Cíl"
-        href: "#sekce-cil"
-      - text: "Přínos"
-        href: "#sekce-prinos"
-      - text: "Informovaný souhlas"
-        href: "#sekce-souhlas"
+      - text: "O projektu"
+        href: "#sekce-o_projektu"
+      - text: "Náš tým"
+        href: "#sekce-tym"
       - text: "Sběr dat"
         href: "#sekce-faze"
+      - text: "Informovaný souhlas"
+        href: "#sekce-souhlas"
       - text: "Výsledky výzkumu"
-        href: vysledky_vyzkumu.qmd
+        href: "#sekce-vysledky"
       - text: "Kontakty"
         href: "#sekce-kontakt"
         
@@ -34,7 +34,7 @@ website:
       - icon: youtube 
         href: https://www.youtube.com/@aidolescence
       - icon: facebook 
-        href: https://facebook.com/
+        href: https://www.facebook.com/profile.php?id=61579209989350
 
     
 
