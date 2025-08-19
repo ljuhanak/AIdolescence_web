@@ -1,12 +1,15 @@
 /* css styles */
 
-/* css styles */
-
 
 /* smooth scroll */
 html {
   scroll-behavior: smooth;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
 
 
 h1 {
@@ -34,10 +37,10 @@ p {
 /* hero image */
 .hero-image {
   position: relative;
-  width: 100vw;
+  width: 100dvw;
   height: 100vh;               /* celá výška okna */
-  margin-left: calc(50% - 50vw);  /* full-bleed přes okraje layoutu */
-  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50dvw);  /* full-bleed přes okraje layoutu */
+  margin-right: calc(50% - 50dvw);
   background-image: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url("images/hero_img.jpg");
   background-size: cover;
   background-position: center;
@@ -48,6 +51,8 @@ p {
   justify-content: center;
   text-align: center;
 }
+
+
 
 /* Text v hero */
 .hero-text h1 {
@@ -70,6 +75,69 @@ body, main, #quarto-document-content, .content {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+
+
+/* videa */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* poměr 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 800px;   /* nepřesáhne rozumnou šířku */
+  margin: 20px auto;  /* zarovná na střed */
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/*Barevné bloky*/ 
+
+/* Barevný blok přes celou šířku */
+.blok {
+  width: 100vw;                         /* 100 % šířky okna */
+  margin-left: calc(-50vw + 50%);        /* posun mimo standardní obsah */
+  padding: 60px 0;                       /* horní a spodní odsazení */
+  box-sizing: border-box;
+}
+
+/* Vnitřní kontejner pro text */
+.blok .container {
+  max-width: 900px;                      /* šířka obsahu (můžeš upravit) */
+  margin: 0 auto;                        /* vycentrování */
+  padding: 0 20px;                       /* malý vnitřní okraj */
+  box-sizing: border-box;
+}
+
+/* Barvy pozadí */
+.zelena {
+  background-color: #C7E6DD;
+}
+
+.seda {
+  background-color: #EAECEC;
+}
+
+.bila {
+  background-color: #FFFFFF;
+}
+
+.ruzova {
+  background-color: #FAE5E6;
+}
+
+.modra {
+  background-color: #DFF2F6;
+}
+
+
+
+
 
 
 
@@ -106,40 +174,6 @@ body, main, #quarto-document-content, .content {
 }
 
 
-/*Barevné bloky*/ 
-
-/* Barevný blok přes celou šířku */
-.blok {
-  width: 100vw;                         /* 100 % šířky okna */
-  margin-left: calc(-50vw + 50%);        /* posun mimo standardní obsah */
-  padding: 60px 0;                       /* horní a spodní odsazení */
-  box-sizing: border-box;
-}
-
-/* Vnitřní kontejner pro text */
-.blok .container {
-  max-width: 900px;                      /* šířka obsahu (můžeš upravit) */
-  margin: 0 auto;                        /* vycentrování */
-  padding: 0 20px;                       /* malý vnitřní okraj */
-  box-sizing: border-box;
-}
-
-/* Barvy pozadí */
-.zelena {
-  background-color: #C7E6DD;
-}
-
-.seda {
-  background-color: #EAECEC;
-}
-
-.bila {
-  background-color: #FFFFFF;
-}
-
-.ruzova {
-  background-color: #FAE5E6;
-}
 
 
 
@@ -194,27 +228,5 @@ body, main, #quarto-document-content, .content {
 
 
 
-.divider {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 
-  width: 100vw;  
-  height: 100px;
-  background: linear-gradient(to right, #A7D7CA, #F7BBBD, #A7D7CA );
-}
-
-.divider2 {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-
-  width: 100vw;  
-  height: 20px;
-  background: linear-gradient(to right, #ffffff );
-}
 
