@@ -18,6 +18,8 @@ lang: cs
 ```
 
 
+
+
 <!--Úvodní text---->
 ```{=html}
 <section class="blok zelena">
@@ -239,7 +241,7 @@ lang: cs
     <img src="images/Lintner.jpg" alt=""> 
   </a>
   <div class="text">
-    <h3>Tomáš Lintner Ph.D.</h3>
+    <h3>Tomáš Lintne, Ph.D.</h3>
     <p>Vedoucí projektu a expert na AI ve vzdělávání</p>
   </div>
 </div>
@@ -581,10 +583,14 @@ Některé otázky mají časový limit, který odpovídá jejich náročnosti. P
 
 <!-- informovaný souhlas ---->
 ```{=html}   
-<section class="blok zelena">
+<section class="blok modra">
   <div class="container">
  <h2 id="sekce-souhlas">Informovaný souhlas</h2>
-  <p style="text-align:justify;"> Učitelé, studenti a v případě nezletilých studentů také jejich zákonní zástupci, kteří se budou chtít zúčastnit národního šetření ai:dolescence, budou požádáni, aby si před vyplněním dotazníku přečetli informovaný souhlas s účastí ve výzkumu a následně jej elektronicky odeslali výzkumnému týmu prostřednictvím našeho formuláře. Informované souhlasy budou k dispozici několik týdnů před zahájením sběru dat. </p>
+  <p style="text-align:justify;"> Učitelé, studenti a v případě nezletilých studentů také jejich zákonní zástupci, kteří se budou chtít zúčastnit národního šetření ai:dolescence, budou požádáni, aby si před vyplněním dotazníku přečetli informovaný souhlas s účastí ve výzkumu a následně jej elektronicky odeslali výzkumnému týmu prostřednictvím našeho formuláře. Informované souhlasy budou k dispozici několik týdnů před zahájením sběru dat.
+  
+   <h4> <a href="https://docs.google.com/forms/d/e/1FAIpQLScEu3OZCtzkzAw2dUVcndp1BAeoDHcMH7F2KOV_fBguObuALw/viewform"> Zde najdete odkaz na informovaný souhlas </a> </h4> 
+
+  </p>
   </div>
   
 </section>
@@ -619,19 +625,23 @@ E-mail projektu: <br>
 <br> 
 <a href="ai-dolescence@phil.muni.cz">ai-dolescence@phil.muni.cz</a>
 <br><br>
-E-mail vedoucího projektu: <br><a href="tomas.lintner@mail.muni.cz">tomas.lintner@mail.muni.cz </a><br>
-<br><p>
 <p style="text-align:justify;"> Pokud se chcete zúčastnit výzkumu, nejdříve <b>prosíme</b> zkontrolujte svoji <b>oficiální školní e‑mailovou adresu. Je pravděpodobné, že jsme Vás s účastí ve výzkumu již oslovili.</b>
 </p>
 <br><br>
 <h3>Financování</h3>
-
+<p style="text-align:justify;"> Projekt ai:dolescence je realizován v rámci projektu Zprostředkovaná společnost (MEDIS:ON). Projekt MEDIS:ON reaguje svojí náplní i cíli na dramatický vývoj technologií, které se staly součástí každodenního života moderní společnosti. Zaměřuje se na zkoumání dopadů umělé inteligence na společnost a vnímá umělou inteligenci jednak jako nástroj k rozšiřování lidských schopností, jednak jako výzvu spojenou s prohlubující se digitální propastí, šířením konspirací a deepfakes a nedostatečným rozvojem AI gramotnosti. Prvotním cílem projektu MEDIS:ON je posun a prohloubení porozumění procesů vztahujících se k procesu práce s informacemi na individuální, sociální a společenské úrovni perspektivou vybraných společenskovědních a humanitních oborů a v úzké spolupráci s počítačovými obory.
+</p>
+<br>
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
 <a href="https://www.msmt.cz" target="_blank" style="text-decoration: none;">
     <img src="images/EU+MŠMT Barevné.svg" alt="Logo Evropské unie a Ministerstva školství, mládeže a tělovýchovy. S textem: Spolufinancováno Evropskou unií." class="image" style="width: 400px; display: block;">
-</a>
-
+</a>   </div>
+<br>
+<p>Projekt byl schválen Etickou komisí pro výzkum Psychologického ústavu Akademie věd.</p>
+ <div class="d-flex justify-content-center">
+  <a href="images/PSU_1035_Brno_2025_statement.pdf" download class="btn btn-primary">Zobrazit rozhodnutí etické komise </a>
+   </div> 
+  
   </div>
 </section>
 ```
-
