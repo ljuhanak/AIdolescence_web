@@ -574,7 +574,7 @@ Některé otázky mají časový limit, který odpovídá jejich náročnosti. P
   <div class="container">
 <p><b>Momentálně se nacházíme ve zvýrazněné  fázi: </b></p>
 
-<img src="images/ZelDia.png" alt="" style="width:70%"> 
+<img src="images/Diagram3.png" alt="" style="width:70%"> 
 </div>
 </section>
 ```
